@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(images/bg.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.play-area {
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 20px 30px;
+    position: relative;
+    height: 350px;
+    width: 900px;
+    background-color: beige;
+}
+.play-section {
+    margin: 10px 20px;
+    padding: 10px 15px;
+    width: 300px;
+    float: left;
+    position: relative;
+}
+
+.buttons{
+    float: none;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.buttons button{
+    padding-right: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    background: none;
+    color: crimson;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttons button:hover {
+    background-color: chartreuse;
+}
+
+.image{
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+.image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.player-name {
+    text-decoration-style: solid;
+    color: darkblue;
+    padding-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score-display {
+    background-color: rosybrown;
+    color: crimson;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    height: 5px;
+    text-align: center;
+    width: 40px;
+}
+
+.round-score {
+    padding-top: 30px;
+}
+.active {
+    background-color: bisque;
+    background-blend-mode: hard-light;
+}
+
+.winner {
+    background-color: gold;
+}
