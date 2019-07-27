@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <title>::PlayGround::</title>
+    </head>
+    <body>
+            <div class="play-area">
+                <div class="play-section active winner" id="play-area-1">
+                    <div class="player-name" id="name-1">
+                        Player-1
+                    </div>
+                    <div class="score-display" id="score-1">
+                        Total  43
+                    </div>
+                    <div class="round-score" id="round-score-1">
+                        Round Score: 12
+                    </div>
+                </div>
+                <div class="play-section" id="play-area-2">
+                    <div class="player-name" id="name-2">
+                        Player-2
+                    </div>
+                    <div class="score-display" id="score-2">
+                        Total  43
+                    </div>
+                    <div class="round-score" id="round-score-2">
+                        Round Score: 12
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button onclick="init()" id="new-game" name="new-game" type="reset">New Game</button>
+                    <button onclick="roll()" id="roll" type="button" name="roll-dice">Roll Dice</button>
+                    <button onclick="hold()" id="hold" type="button" name="hold-score">Hold Score</button>
+                </div> 
+                <div class="image">
+                    <img id="dice" src="css/images/dice-1.png" alt="dice">
+                </div>
+            </div>
+            <script src="index.js"></script>
+    </body>
+</html>
